@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import bannerImage from "../../assets/about1.png";
+// import bannerImage from "../../assets/whyEWIG/img4.png";
 
 const VisionSection = () => {
   return (
@@ -86,8 +87,13 @@ const VisionSection = () => {
             <span className="underline">Solar</span>
           </h4>
           <p className="text-sm px-6 py-4">
-            Our Future Sustainability Goals Focus On Expanding The Adoption Of Clean Solar
-            Energy, Advancing Innovative Technologies, And Reducing Our Carbon Footprint...
+              Our Future Sustainability Goals Focus On Expanding The Adoption Of Clean Solar
+              Energy, Advancing Innovative Technologies, And Reducing Our Carbon Footprint.
+              We Aim To Increase The Efficiency And Affordability Of Solar Solutions, Promote
+              Energy Independence, And Support Global Efforts To Combat Climate Change. Additionally,
+              We Are Committed To Long-Term Sustainability By Integrating Eco-Friendly Practices
+              In Our Operations And Collaborating With Communities To Foster A Greener, Healthier
+              Planet For Future Generations.
           </p>
         </motion.div>
 
@@ -103,8 +109,13 @@ const VisionSection = () => {
             <span className="underline">Unique?</span>
           </h4>
           <p className="text-sm px-6 py-4">
-            Our Solar Company Stands Out Because Of Our Unwavering Commitment To Innovation,
-            Customer-Centric Approach, And Sustainability...
+              Our Future Sustainability Goals Focus On Expanding The Adoption Of Clean Solar
+              Energy, Advancing Innovative Technologies, And Reducing Our Carbon Footprint.
+              We Aim To Increase The Efficiency And Affordability Of Solar Solutions, Promote
+              Energy Independence, And Support Global Efforts To Combat Climate Change. Additionally,
+              We Are Committed To Long-Term Sustainability By Integrating Eco-Friendly Practices
+              In Our Operations And Collaborating With Communities To Foster A Greener, Healthier
+              Planet For Future Generations.
           </p>
         </motion.div>
       </div>

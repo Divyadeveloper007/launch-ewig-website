@@ -11,23 +11,29 @@ const faqs = [
   },
   {
     question: "How does renewable energy help reduce climate change?",
-    answer: "Renewable energy like wind and solar produce little to no greenhouse gas emissions, replacing fossil fuels and helping reduce carbon in the atmosphere.",
+    answer:
+      "Renewable energy like wind and solar produce little to no greenhouse gas emissions, replacing fossil fuels and helping reduce carbon in the atmosphere.",
   },
   {
     question: "Is renewable energy really more affordable than fossil fuels?",
-    answer: "Yes, in many regions renewable energy is now cheaper due to falling technology costs and government incentives.",
+    answer:
+      "Yes, in many regions renewable energy is now cheaper due to falling technology costs and government incentives.",
   },
   {
     question: "Can clean energy sources completely replace fossil fuels?",
-    answer: "Yes, over time. With the right investments, infrastructure, and policy support, clean energy can fully power our world sustainably.",
+    answer:
+      "Yes, over time. With the right investments, infrastructure, and policy support, clean energy can fully power our world sustainably.",
   },
   {
     question: "What are the health benefits of switching to renewable energy?",
-    answer: "Cleaner air, fewer respiratory and heart diseases, and reduced pollution-related health costs are key benefits of switching.",
+    answer:
+      "Cleaner air, fewer respiratory and heart diseases, and reduced pollution-related health costs are key benefits of switching.",
   },
   {
-    question: "Why should businesses and homeowners invest in solar energy now?",
-    answer: "Costs are low, incentives are strong, and long-term savings plus sustainability make solar a smart investment.",
+    question:
+      "Why should businesses and homeowners invest in solar energy now?",
+    answer:
+      "Costs are low, incentives are strong, and long-term savings plus sustainability make solar a smart investment.",
   },
 ];
 
@@ -87,14 +93,21 @@ const FaqSection = () => {
             }}
           >
             <button
-              className="w-full flex items-center justify-between px-6 py-4 text-left"
+              className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-gray-50 transition"
               onClick={() => toggleFAQ(index)}
             >
+              {/* Question Text */}
               <span className="font-semibold text-sm md:text-base text-gray-800">
                 {faq.question}
               </span>
-              <div className="text-green-600">
-                {openIndex === index ? <FaChevronDown /> : <FaChevronRight />}
+
+              {/* Chevron Icon in Circle */}
+              <div className="w-6 h-6 flex items-center justify-center bg-gray-200 rounded-full">
+                {openIndex === index ? (
+                  <FaChevronDown className="text-gray-500 text-sm" />
+                ) : (
+                  <FaChevronRight className="text-gray-500 text-sm" />
+                )}
               </div>
             </button>
 
